@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Telamain</string>
+    <string name="ola_mundo_aqui_esta_o_programa_inicial_sobre_investimentos">Ola mundo, aqui esta o programa inicial
+        sobre investimentos !!
+    </string>
+    <string name="edit_messsage">Enter a message</string>
+    <string name="button_send">Send</string>
 </resources>
