@@ -8,4 +8,7 @@
         android:orientation="vertical"
         android:background="#000">
 
+    <ImageView
+            android:layout_height="match_parent" app:srcCompat="@drawable/logo_3s" android:id="@+id/imageView"
+            android:layout_width="match_parent"/>
 </LinearLayout>
