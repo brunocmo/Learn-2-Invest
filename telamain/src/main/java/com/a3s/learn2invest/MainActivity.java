@@ -9,7 +9,9 @@ import android.widget.EditText;
 import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
 public class MainActivity extends AppCompatActivity {
-    public static final String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
+    public static final String Montante_input = "com.example.myfirstapp.MESSAGE";
+    public static String montante_final = "";
+    public static String periodo_final = "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,9 +22,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DisplayMessageActivity.class);
         EditText editText = (EditText) findViewById(R.id.editText2);
         String message = editText.getText().toString();
-        intent.putExtra(EXTRA_MESSAGE, message);
+        EditText editText1 = (EditText) findViewById(R.id.editText);
+        String message2 = editText1.getText().toString();
+        intent.putExtra(Montante_input, message);
+        montante_final = message;
+        periodo_final = message2;
         startActivity(intent);
 
     }
-    
+
+
 }

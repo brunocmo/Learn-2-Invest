@@ -26,6 +26,8 @@
         </activity>
         <activity android:name=".HighRisk">
         </activity>
+        <activity android:name=".low_portifolio_one">
+        </activity>
     </application>
 
 </manifest>

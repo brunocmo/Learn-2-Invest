@@ -13,7 +13,7 @@
             android:layout_height="wrap_content"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
             android:id="@+id/button6" app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="126dp"
-    />
+            android:onClick="goPort1"/>
     <Button
             android:text="@string/button_low_two"
             android:layout_width="320dp"

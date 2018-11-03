@@ -16,4 +16,12 @@
     <string name="button_low_four">Portifólio 4</string>
     <string name="button_low_five">Portifólio 5</string>
     <string name="button_low_six">Portifólio 6</string>
+    <string name="name_low_port1_1">Caruana Financeira</string>
+    <string name="descript_low_port_1">9.55% a.a. Valor minimo = R$10000</string>
+    <string name="name_low_port1_2">Banco BTG Pactual S/A</string>
+    <string name="descript_low_port1_2">7.65% a.a. Valor minimo = R$5000</string>
+    <string name="descript_low_port1_3">6.80% a.a. Valor minimo = R$10000</string>
+    <string name="name_low_port1_3">Avista</string>
+    <string name="descript_low_port1_4">116.00% do CDI Valor minimo = R$5000</string>
+    <string name="show_total">Total</string>
 </resources>
