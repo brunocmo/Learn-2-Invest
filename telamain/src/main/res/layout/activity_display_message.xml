@@ -7,4 +7,28 @@
         android:layout_height="match_parent"
         tools:context=".DisplayMessageActivity" tools:layout_editor_absoluteY="25dp">
 
+    <Button
+            android:text="@string/button_low"
+            android:layout_width="321dp"
+            android:layout_height="0dp"
+            android:id="@+id/button3" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="216dp" android:onClick="goLowrisk"/>
+    <Button
+            android:text="@string/button_high"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4"
+            android:layout_marginTop="28dp"
+            app:layout_constraintTop_toBottomOf="@+id/button5" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:onClick="goHighrisk"/>
+    <Button
+            android:text="@string/button_moderate"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button5" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="28dp"
+            app:layout_constraintTop_toBottomOf="@+id/button3" app:layout_constraintHorizontal_bias="0.498"
+            android:onClick="goModeraterisk"/>
 </android.support.constraint.ConstraintLayout>

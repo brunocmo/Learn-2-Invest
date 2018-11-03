@@ -7,4 +7,13 @@
     <string name="button_sim">Simulação</string>
     <string name="edit_periodo">Período</string>
     <string name="edit_messsage">"Montante "</string>
+    <string name="button_low">Risco baixo</string>
+    <string name="button_moderate">Risco moderado</string>
+    <string name="button_high">Risco Alto</string>
+    <string name="button_low_one">Portifólio 1</string>
+    <string name="button_low_two">Portifólio 2</string>
+    <string name="button_low_three">Portifólio 3</string>
+    <string name="button_low_four">Portifólio 4</string>
+    <string name="button_low_five">Portifólio 5</string>
+    <string name="button_low_six">Portifólio 6</string>
 </resources>

@@ -10,17 +10,21 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
-
         </activity>
-        <activity
-                android:name=".SplashActivity">
+        <activity android:name=".SplashActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
         <activity android:name=".DisplayMessageActivity">
+        </activity>
+        <activity android:name=".LowRisk">
+        </activity>
+        <activity android:name=".ModerateRisk">
+        </activity>
+        <activity android:name=".HighRisk">
         </activity>
     </application>
 
