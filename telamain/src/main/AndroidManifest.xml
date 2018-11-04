@@ -16,7 +16,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CDB"></activity>
+        <activity android:name=".CDB" />
+        <activity android:name=".debenturesExemplo" />
+        <activity android:name=".lciExemplos" />
+        <activity android:name=".LcaExemplos" />
+        <activity android:name=".LcActivity" />
+        <activity android:name=".LcExemplos" />
+        <activity android:name=".TesouroDiretoExemplos" />
+        <activity android:name=".CDBsimulador" />
+        <activity android:name=".LcaSimulador" />
+        <activity android:name=".LciSimulador" />
+        <activity android:name=".Lcsimulador" />
+        <activity android:name=".debenturesSimulador" />
+        <activity android:name=".TesouroDiretoSimulador"></activity>
     </application>
 
 </manifest>

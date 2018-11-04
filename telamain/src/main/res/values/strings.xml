@@ -8,6 +8,7 @@
     <string-array name="opcoes">
         <item>CDB</item>
         <item>Dêbentures</item>
+        <item>LC</item>
         <item>LCI</item>
         <item>LCA</item>
         <item>Tesouro Direto</item>
