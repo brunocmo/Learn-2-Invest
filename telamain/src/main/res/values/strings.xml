@@ -5,4 +5,12 @@
     </string>
     <string name="edit_messsage">Enter a message</string>
     <string name="button_send">Send NOW</string>
+    <string-array name="opcoes">
+        <item>CDB</item>
+        <item>Dêbentures</item>
+        <item>LCI</item>
+        <item>LCA</item>
+        <item>Tesouro Direto</item>
+    </string-array>
+
 </resources>
