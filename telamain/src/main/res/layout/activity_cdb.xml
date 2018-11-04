@@ -7,7 +7,7 @@
     tools:context=".CDB">
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/recyclevVew"
+        android:id="@+id/recyclerPostagem"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>
