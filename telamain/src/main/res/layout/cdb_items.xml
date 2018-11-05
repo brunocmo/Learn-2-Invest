@@ -18,7 +18,7 @@
             android:src="@drawable/amarelo" />
         <TextView
             android:id="@+id/nome"
-            android:layout_width="250dp"
+            android:layout_width="230dp"
             android:layout_height="wrap_content"
             android:text="Banco"
             android:layout_marginLeft="10dp"
@@ -27,12 +27,12 @@
             android:textSize="16dp" />
         <TextView
             android:id="@+id/montante"
-            android:layout_width="133dp"
+            android:layout_width="wrap_content"
             android:layout_height="22dp"
-            android:layout_marginLeft="250dp"
+            android:layout_marginLeft="240dp"
             android:layout_marginTop="-22dp"
             android:textColor="#00a000"
-            android:textSize="10dp"
+            android:textSize="13dp"
             android:textStyle="bold"
             android:text="" />
         <TextView
@@ -40,16 +40,16 @@
             android:text=""
             android:layout_marginLeft="10dp"
             android:layout_marginTop="5dp"
-            android:textSize="10dp"
+            android:textSize="13dp"
             android:layout_width="200dp"
             android:layout_height="22dp" />
         <TextView
             android:id="@+id/taxa"
             android:text=""
-            android:layout_marginLeft="210dp"
+            android:layout_marginLeft="240dp"
             android:layout_marginTop="-20dp"
             android:textSize="10dp"
-            android:layout_width="70dp"
+            android:layout_width="wrap_content"
             android:layout_height="18dp" />
         <TextView
             android:text="Risco: Médio"
