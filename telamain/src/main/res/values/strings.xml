@@ -5,6 +5,10 @@
     </string>
     <string name="edit_messsage">Enter a message</string>
     <string name="button_send">Send NOW</string>
+    <string name="comece_a_investir_agora">Comece a investir agora!</string>
+    <string name="simular">Simular</string>
+    <string name="exemplos">Exemplos</string>
+    <string name="todo">TODO</string>
     <string-array name="opcoes">
         <item>CDB</item>
         <item>Dêbentures</item>

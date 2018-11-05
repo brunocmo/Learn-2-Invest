@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:background="#7986CD"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".MainActivity" tools:layout_editor_absoluteY="25dp">
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="# FFFFF"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="25dp">
 
     <TextView
         android:id="@+id/textView"
@@ -19,7 +19,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:text="Comece a investir agora!"
-        android:textColor="#eeeeee"
+        android:textColor="#008000"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageView2"
@@ -31,7 +31,7 @@
         android:id="@+id/ButtonExemplos"
         android:layout_width="191dp"
         android:layout_height="wrap_content"
-        android:background="#eeeeee"
+        android:background="#FFFFFF"
         android:text="Exemplos"
         android:textColor="#263238"
         android:textStyle="bold"
@@ -42,7 +42,7 @@
         android:id="@+id/ButtonSimular"
         android:layout_width="192dp"
         android:layout_height="wrap_content"
-        android:background="#eeeeee"
+        android:background="#FFFFFF"
         android:text="Simular"
         android:textColor="#263238"
         android:textStyle="bold"
