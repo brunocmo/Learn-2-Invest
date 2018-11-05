@@ -74,7 +74,7 @@ public class lciExemplos extends AppCompatActivity {
         p = new Postagem("BTG Pactual S/A (Pré-fixado)","Investimento: R$ 10.000","Montante: 10.680,26", R.drawable.vermelho,"Risco: Alto","Taxa: 6,8 a.a.");
         this.postagens.add(p);
 
-        p = new Postagem("Banco Ribeirão Preto (Pré-fixado)","Investimento: R$ 10.000","Montante: 14.857,07", R.drawable.vermelho,"Risco: Alto","Taxa: 6,84% a.a.");
+        p = new Postagem("Banco Ribeirão Preto  (Pré-fixado)","Investimento: R$ 10.000","Montante: 14.857,07", R.drawable.vermelho,"Risco: Alto","Taxa: 6,84% a.a.");
         this.postagens.add(p);
 
 
