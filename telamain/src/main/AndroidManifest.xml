@@ -20,7 +20,6 @@
         <activity android:name=".debenturesExemplo" />
         <activity android:name=".lciExemplos" />
         <activity android:name=".LcaExemplos" />
-        <activity android:name=".LcActivity" />
         <activity android:name=".LcExemplos" />
         <activity android:name=".TesouroDiretoExemplos" />
         <activity android:name=".CDBsimulador" />
