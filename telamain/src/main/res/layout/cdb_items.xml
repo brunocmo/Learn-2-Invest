@@ -18,7 +18,7 @@
             android:src="@drawable/amarelo" />
         <TextView
             android:id="@+id/nome"
-            android:layout_width="230dp"
+            android:layout_width="225dp"
             android:layout_height="wrap_content"
             android:text="Banco"
             android:layout_marginLeft="10dp"
@@ -29,7 +29,7 @@
             android:id="@+id/montante"
             android:layout_width="wrap_content"
             android:layout_height="22dp"
-            android:layout_marginLeft="240dp"
+            android:layout_marginLeft="235dp"
             android:layout_marginTop="-22dp"
             android:textColor="#00a000"
             android:textSize="13dp"
@@ -43,6 +43,7 @@
             android:textSize="13dp"
             android:layout_width="200dp"
             android:layout_height="22dp" />
+
         <TextView
             android:id="@+id/taxa"
             android:text=""
@@ -50,11 +51,11 @@
             android:layout_marginTop="-20dp"
             android:textSize="10dp"
             android:layout_width="wrap_content"
-            android:layout_height="18dp" />
+            android:layout_height="40dp" />
 
         <TextView
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="-20dp"
             android:id="@+id/prazo"
             android:layout_width="wrap_content"
             android:layout_height="20dp" />
