@@ -36,7 +36,6 @@ public class LcExemplos extends AppCompatActivity {
 
     public void prepararPostagens(){
         Postagem p = new Postagem();
-
         p = new Postagem("Senff (Pós-fixado)","Investimento R$:1.000","Montate:1.365,48",R.drawable.verde,"Risco: Baixo","Taxa: 118% do CDI","Prazo: 1800 Dias");
         this.postagens.add(p);
 
@@ -68,6 +67,15 @@ public class LcExemplos extends AppCompatActivity {
         this.postagens.add(p);
 
         p = new Postagem("Caruana (Pós-fixado)","Investimento R$:3.000","Montate:3.636,64",R.drawable.verde,"Risco: Baixo","Taxa: 121,00% do CDI","Prazo: 1095 Dias");
+        this.postagens.add(p);
+
+        p = new Postagem("Avista (Pós-fixado)","Investimento R$: 5.000,00","Montate: 6.833,80",R.drawable.verde,"Risco: Baixo","Taxa: 125% do CDI","Prazo: 1800 Dias");
+        this.postagens.add(p);
+
+        p = new Postagem("Facta (Pós-fixado)","Investimento R$: 5.000,00","Montate: 6.905,55",R.drawable.verde,"Risco: Baixo","Taxa: 98% do CDI","Prazo: 1085 Dias");
+        this.postagens.add(p);
+
+        p = new Postagem("BRK (Pós-fixado)","Investimento R$: 5.000,00","Montate: 7.923,34",R.drawable.verde,"Risco: Baixo","Taxa: 124% do CDI","Prazo: 1445 Dias");
         this.postagens.add(p);
 
         p = new Postagem("Senff (Pós-fixado)","Investimento R$:1.000","Montate:1.129,53",R.drawable.amarelo,"Risco: Médio","Taxa: 117% do CDI","Prazo: 721 Dias");
