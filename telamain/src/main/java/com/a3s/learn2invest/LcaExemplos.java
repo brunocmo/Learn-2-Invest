@@ -37,7 +37,7 @@ public class LcaExemplos extends AppCompatActivity {
     public void prepararPostagens(){
         Postagem p = new Postagem();
 
-
+//p
     }
 }
 
