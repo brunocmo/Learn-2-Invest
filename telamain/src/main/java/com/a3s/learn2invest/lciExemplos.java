@@ -39,11 +39,7 @@ public class lciExemplos extends AppCompatActivity {
 
     Postagem p = new Postagem();
 
-        p = new Postagem("Modal (Pré-fixado)","Investimento R$:1.000","Montate:1.011,67",R.drawable.amarelo,"Risco: Médio","Taxa: 4.91% a.a","Prazo: 91 Dias");
-        this.postagens.add(p);
 
-        p = new Postagem("Modal (Pré-fixado)","Investimento R$:1.000","Montate:1.012,90",R.drawable.vermelho,"Risco: Alto","Taxa: 85% do CDI","Prazo: 91 Dias");
-        this.postagens.add(p);
 
 
 
