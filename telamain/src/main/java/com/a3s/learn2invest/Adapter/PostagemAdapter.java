@@ -38,8 +38,7 @@ public class PostagemAdapter extends RecyclerView.Adapter <PostagemAdapter.MyVie
         myViewHolder.risco.setText(postagem.getRisco());
         myViewHolder.imagem.setImageResource(postagem.getImagem());
         myViewHolder.taxa.setText(postagem.getTaxa());
-
-
+        myViewHolder.prazo.setText(postagem.getPrazo());
     }
 
     @Override
@@ -54,6 +53,7 @@ public class PostagemAdapter extends RecyclerView.Adapter <PostagemAdapter.MyVie
         private ImageView imagem;
         private TextView montante;
         private TextView taxa;
+        private TextView prazo;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -64,6 +64,7 @@ public class PostagemAdapter extends RecyclerView.Adapter <PostagemAdapter.MyVie
             imagem = itemView.findViewById(R.id.imagem);
             taxa = itemView.findViewById(R.id.taxa);
             montante = itemView.findViewById(R.id.montante);
+            prazo = itemView.findViewById(R.id.prazo);
 
 
 

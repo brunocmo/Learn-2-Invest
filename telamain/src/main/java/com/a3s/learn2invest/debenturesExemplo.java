@@ -37,14 +37,6 @@ public class debenturesExemplo extends AppCompatActivity {
     }
 
     public void prepararPostagens(){
-        Postagem p = new Postagem("Santand00000000000000000000er","R$: 100.00","10.000",R.drawable.verde,"Risco: Baixo","12% a.a");
-        this.postagens.add(p);
-        p = new Postagem("Inter","R$: 100.00","100.000",R.drawable.vermelho,"Risco: Baixo","12% a.a");
-        this.postagens.add(p);
-        p = new Postagem("Casas Bahia","R$: 100.00","100.000",R.drawable.amarelo,"Risco: Baixo","12% a.a");
-        this.postagens.add(p);
-        p = new Postagem("Caixa Economica","R$: 100.00","100.000",R.drawable.vermelho,"Risco: Baixo","12% a.a");
-        this.postagens.add(p);
 
     }
 }

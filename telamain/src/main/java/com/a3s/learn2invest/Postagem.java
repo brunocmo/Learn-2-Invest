@@ -7,17 +7,27 @@ public class Postagem {
     private int imagem;
     private String risco;
     private String taxa;
+    private String prazo;
 
     public Postagem() {
     }
 
-    public Postagem(String nome, String investimentoMinimo, String montante, int imagem, String risco, String taxa) {
+    public Postagem(String nome, String investimentoMinimo, String montante, int imagem, String risco, String taxa,String prazo) {
         this.nome = nome;
         this.investimentoMinimo = investimentoMinimo;
         this.montante = montante;
         this.imagem = imagem;
         this.risco = risco;
         this.taxa = taxa;
+        this.prazo = prazo;
+    }
+
+    public String getPrazo() {
+        return prazo;
+    }
+
+    public void setPrazo(String prazo) {
+        this.prazo = prazo;
     }
 
     public String getNome() {

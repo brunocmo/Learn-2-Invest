@@ -37,28 +37,7 @@ public class CDB extends AppCompatActivity {
 
     public void prepararPostagens(){
         Postagem p = new Postagem();
-        p = new Postagem("Banco BTG Pactual S/A","Investimento R$: 5.000","Montate: 40.000",R.drawable.verde,"Risco: Baixo","Taxa: 7.65% a.a");
-        this.postagens.add(p);
 
-        p = new Postagem("Banco PAN S.A.","Investimento R$: 5.000","Montate: 40.000",R.drawable.amarelo,"Risco: Medio","Taxa: 115.00% do CDI%");
-        this.postagens.add(p);
-        p = new Postagem("Banco Caixa Geral","Investimento R$: 100.000","Montate: 250.000",R.drawable.amarelo,"Risco: Medio","Taxa: 8.75% a.a.");
-        this.postagens.add(p);
-
-        p = new Postagem("Banco Haitong","Investimento R$: 50.000","Montate: 250.000",R.drawable.amarelo,"Risco: Medio","Taxa: 105.00% do CDI");
-        this.postagens.add(p);
-
-        p = new Postagem("Banco Haitong","Investimento R$: 50.000","Montate: 250.000",R.drawable.amarelo,"Risco: Medio","Taxa: 104.50% do CDI");
-        this.postagens.add(p);
-
-        p = new Postagem("Banco Caixa Geral","Investimento R$: 100.000","Montate: 250.000",R.drawable.amarelo,"Risco: Medio","Taxa: 9.54% a.a.");
-        this.postagens.add(p);
-
-        p = new Postagem("Banco Pine","Investimento Mínimo R$: 20.000","Montate: 40.000",R.drawable.vermelho,"Risco: Alto","Taxa: 119.00% do CDI");
-        this.postagens.add(p);
-
-        p = new Postagem("Banco Pine","Investimento Mínimo R$: 20.000","Montate: 40.000",R.drawable.vermelho,"Risco: Alto","Taxa: 120.00% do CDI");
-        this.postagens.add(p);
 
     }
 }
